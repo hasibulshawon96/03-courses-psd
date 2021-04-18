@@ -1,0 +1,297 @@
+/***********************************************
+Project Name: Educafe LMS;
+Project Dirctor: Mr. X;
+Client Name: LEDP;
+Project Start Date: 04-10-2021;
+Project Submission Date: 12-04-2021;
+Total page: 7;
+************************************************
+Home Page Section:
+-------------------
+					1.TopBar
+					2.Header
+					3.Slider
+					4.AboutUS
+					5.Course
+					6.Facts
+					7.Blog
+					8.Testimonial
+					9.Newsletter
+					10.Footer
+**************************************************
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*****************************************************************
+			Base CSS Start
+******************************************************************/
+::placeholder{
+	background: transparent !important;
+	color: #fff !important;
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif !important;
+}
+a{
+	text-decoration: none !important;
+}
+a:hover{
+	text-decoration: none !important;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*****************************************************************
+			Base CSS End
+******************************************************************/
+/*****************************************************************
+			Common CSS Start
+******************************************************************/
+.primary-bg{
+	background: #56ab2f !important;
+}
+.secondary-color{
+	color: #555 !important;
+}
+/*****************************************************************
+			Common CSS End
+******************************************************************/
+/*****************************************************************
+			Owl Carousel CSS Start
+******************************************************************/
+
+/*****************************************************************
+			Owl Carousel CSS End
+******************************************************************/
+/*****************************************************************
+			TopBar CSS Start
+******************************************************************/
+.topbar{
+	height: 49px;
+	line-height: 49px;
+	width: 100%;
+}
+.topbar-left li{
+margin-left: 20px; 
+}
+.topbar-left li:first-child{
+	margin: 0;
+}
+.topbar-right li:first-child::after{
+content: "|";
+color: #000022!important;
+padding-left: 10px;
+padding-right: 10px;
+}
+.font-size-10{
+	font-size: 10px;
+	margin-left: -10px !important;
+}
+
+/*****************************************************************
+			TopBar CSS End
+******************************************************************/
+/*****************************************************************
+			Header CSS Start
+******************************************************************/
+.nav-link{
+	font-weight: bold !important;
+}
+.custom-light{
+	background-color: rgba(255,255,255, .5);
+}
+/*****************************************************************
+			Header CSS End
+******************************************************************/
+/*****************************************************************
+			cover overlay CSS Start
+******************************************************************/
+.cover-image{
+	background: url('../img/cover overlay/02_About.png') no-repeat;
+	height: 250px;
+	position: relative;
+
+}
+.cover-text li:first-child::after{
+    content: "/" !important;
+    color: white !important;
+    position: relative;
+	left: -116px;
+	bottom: -31px;
+	z-index: 1;
+}
+.cover-text a:hover{
+    color: #56ab2f !important;
+}
+.cover-text a{
+	position: relative;
+	left: -120px;
+	bottom: -30px;
+
+}
+
+.custom-cover{
+	background: url('../img/cover overlay/02_About.png') no-repeat;
+	color: #fff;
+	height: 250px;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.color-overlay{
+	background: #33231d;
+	height: 100%;
+	width: 100%;
+	opacity: .3;
+	position: absolute;
+}
+h3{
+	z-index: 1;
+}
+.cover-a {
+	z-index: 1;
+}
+.text-center-1{
+	position: relative;
+	left: 20px;
+	font-weight: bolder;
+}
+/*****************************************************************
+			cover overlay CSS End
+*****************************************************************
+/*****************************************************************
+			Massage from principal CSS Start
+******************************************************************/
+.background-academy{
+	background: url('../img/academy/academy.png');
+	/*background-size: cover;*/
+}
+.aboutUsImag{
+	margin-top: 50px;
+    margin-bottom: -25px;
+    margin-left: -80px;
+}
+
+/*****************************************************************
+			Massage from principal CSS End
+******************************************************************/
+/*****************************************************************
+			CTA  CSS Start
+******************************************************************/
+.cta-email{
+	width: 30%;
+    height: 45px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.cta-button{
+	padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -3px;
+    outline: 2px solid rgba(255,255,255,.5);
+}
+::placeholder{
+	color: #fff;
+}
+
+
+/*****************************************************************
+			CTA  CSS End
+******************************************************************/
+/*****************************************************************
+			Facts CSS Start
+******************************************************************/
+.facts{
+	background-image: url('../img/facts/facts.png');
+	background-attachment: fixed;
+}
+
+/*****************************************************************
+			Facts CSS End
+******************************************************************/
+/*****************************************************************
+			our courses CSS Start
+******************************************************************/
+.course-icon{
+	color: #555;
+	border: 1px solid #56ab2f;	
+	border-radius: 0;
+	padding: 3px;
+}
+.course-icon:hover{
+	color: #56ab2f;
+}
+#select-category{
+	border: 1px solid #56ab2f;
+	padding: 3px;
+}
+#sort-by{
+	border: 1px solid #56ab2f;
+	padding: 3px;
+}
+/*****************************************************************
+			our courses CSS End
+******************************************************************/
+/*****************************************************************
+			Testimonial CSS Start
+******************************************************************/
+
+/*****************************************************************
+			Testimonial CSS End
+******************************************************************/
+/*****************************************************************
+			Newsletter CSS Start
+******************************************************************/
+
+
+/*****************************************************************
+			Newsletter CSS End
+******************************************************************/
+/*****************************************************************
+			Footer CSS Start
+******************************************************************/
+.footer{
+	background: #1e1d1d !important;
+}
+.footer-bottom{
+	border-top: 2px solid #56ab2f !important;
+}
+
+.footer-icon li{
+	height: 40px;
+	width: 40px;
+	line-height: 30px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.footer-icon li:first-child{
+	margin-left: 0px;
+}
+.footer-icon li a{
+	line-height: 38px;
+    padding: 10px;
+    color: #fff;
+}
+.footer-icon li a:hover{
+	color: #56ab2f;
+}
+.primary-color {
+    color: #56ab2f !important;
+
+/*****************************************************************
+			Footer CSS End
+******************************************************************/
